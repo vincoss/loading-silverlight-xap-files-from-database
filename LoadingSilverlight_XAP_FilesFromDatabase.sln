@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{EAA1971A-A769-40BA-BD8A-7771E5329116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSite", "WebSite\WebSite.csproj", "{AE4F762E-A246-4F5B-A629-6E9E336AE15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleB", "Modules\ModuleB\ModuleB.csproj", "{E6692515-3A39-4D05-9C5C-80750EBECE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "Modules\ModuleA\ModuleA.csproj", "{72BD861D-EACB-4A25-BFDE-6F25C625FA00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE4F762E-A246-4F5B-A629-6E9E336AE15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4F762E-A246-4F5B-A629-6E9E336AE15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4F762E-A246-4F5B-A629-6E9E336AE15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4F762E-A246-4F5B-A629-6E9E336AE15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6692515-3A39-4D05-9C5C-80750EBECE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6692515-3A39-4D05-9C5C-80750EBECE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6692515-3A39-4D05-9C5C-80750EBECE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6692515-3A39-4D05-9C5C-80750EBECE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BD861D-EACB-4A25-BFDE-6F25C625FA00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BD861D-EACB-4A25-BFDE-6F25C625FA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BD861D-EACB-4A25-BFDE-6F25C625FA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BD861D-EACB-4A25-BFDE-6F25C625FA00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E6692515-3A39-4D05-9C5C-80750EBECE82} = {EAA1971A-A769-40BA-BD8A-7771E5329116}
+		{72BD861D-EACB-4A25-BFDE-6F25C625FA00} = {EAA1971A-A769-40BA-BD8A-7771E5329116}
+	EndGlobalSection
+EndGlobal

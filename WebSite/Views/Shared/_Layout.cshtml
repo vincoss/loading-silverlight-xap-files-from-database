@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="page">
+
+        <div id="header">
+            <div id="title">
+                <h1>My MVC Application</h1>
+            </div>
+
+            <div id="logindisplay">
+              
+            </div>
+
+            <div id="menucontainer">
+
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "index", "home")</li>
+                    <li>@Html.ActionLink("Upload", "index", "upload")</li>
+                    <li>@Html.ActionLink("Module A", "index", "client", new { id = "modulea" }, new { target ="_blank" })</li>
+                    <li>@Html.ActionLink("Module B", "index", "client", new { id = "moduleb" }, new { target = "_blank" })</li>
+                </ul>
+
+            </div>
+        </div>
+       
+        <div id="main">
+            @RenderBody()
+            <div id="footer">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
